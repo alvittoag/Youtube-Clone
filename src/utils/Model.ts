@@ -34,3 +34,19 @@ type ImgThumbnail = {
   url: string;
   width: string;
 };
+
+export type VideoDetails = {
+  snippet: SnippetVideoDetail;
+  statistics: StatisticsVideoDetail;
+};
+
+type SnippetVideoDetail = {
+  title: string;
+  channelId: string;
+  channelTitle: string;
+};
+
+type StatisticsVideoDetail = {
+  viewCount: string;
+  likeCount: string | null | undefined;
+};

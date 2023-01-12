@@ -6,7 +6,7 @@ import { demoProfilePicture } from "../utils/constans";
 
 type Props = {
   channelDetail: Video | null;
-  marginTop: string;
+  marginTop?: string;
 };
 
 const ChannelCard = ({ channelDetail, marginTop }: Props) => {

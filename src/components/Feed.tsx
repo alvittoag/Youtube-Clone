@@ -15,27 +15,25 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <Stack sx={{ flexDirection: { xs: "colum", md: "row" } }}>
+    <Stack sx={{ flexDirection: { xs: "column", md: "row" } }}>
       <Box
         sx={{
           height: { sx: "auto", md: "86vh" },
           borderRight: "1px solid #3d3d3d",
+          paddingX: { xs: 0, md: 2 },
         }}
       >
         <SideBar
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <Typography variant="body2" sx={{ mt: 1.5, color: "#fff" }}>
-          Copyright 2023 Alvitto AG
-        </Typography>
       </Box>
       <Box sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"
           mb={2}
-          sx={{ color: "white", paddingX: { lg: 6, md: 2 } }}
+          sx={{ color: "white", paddingX: { xs: 2, lg: 5, md: 2 } }}
         >
           {selectedCategory} <span style={{ color: "#F31503" }}>Videos</span>
         </Typography>
