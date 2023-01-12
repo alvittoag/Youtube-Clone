@@ -6,7 +6,7 @@ import {
   SearchFeed,
   VideoDetail,
 } from "./components";
-import { Box } from "@mui/system";
+import { Box } from "@mui/material";
 
 function App() {
   return (
