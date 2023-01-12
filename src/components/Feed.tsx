@@ -15,12 +15,11 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <Stack sx={{ flexDirection: { sx: "colum", md: "row" } }}>
+    <Stack sx={{ flexDirection: { xs: "colum", md: "row" } }}>
       <Box
         sx={{
           height: { sx: "auto", md: "86vh" },
           borderRight: "1px solid #3d3d3d",
-          px: { sx: 0, md: 2 },
         }}
       >
         <SideBar
@@ -36,7 +35,7 @@ const Feed = () => {
           variant="h4"
           fontWeight="bold"
           mb={2}
-          sx={{ color: "white", paddingX: 4 }}
+          sx={{ color: "white", paddingX: { lg: 6, md: 2 } }}
         >
           {selectedCategory} <span style={{ color: "#F31503" }}>Videos</span>
         </Typography>

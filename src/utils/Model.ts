@@ -9,8 +9,8 @@ export type Video = {
 };
 
 type IdVideo = {
-  videoId: "string";
-  channelId: "string";
+  videoId: string;
+  channelId: string;
 };
 
 type SnippetVideo = {
