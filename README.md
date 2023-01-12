@@ -5,4 +5,4 @@
 `Backend :
 https://rapidapi.com/ytdlfree/api/youtube-v31`
 
-# ![Preview](img/Capture.png)
+# ![Preview](img/Capture.PNG)
